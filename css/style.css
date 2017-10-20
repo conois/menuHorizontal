@@ -1,0 +1,36 @@
+nav{
+	/*outline: 2px solid yellow;*/
+}
+
+ul{
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	line-height: 30px;
+	background: black;
+}
+
+li{
+	/*outline: 2px solid red;*/ 
+	
+	display: inline-block;
+	width: 115px;
+
+}
+
+a{
+	/*outline-style: 2px solid green; */
+	display: block;
+	color: white;
+	text-decoration: none;
+	text-align: center;
+
+}
+
+ul li:hover{
+	background: #F68909;
+}
+
+ul li a:hover{
+	color: black;
+}
